@@ -47,7 +47,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem11Tests.cs" />
     <Compile Include="Problem1Tests.cs" />
+    <Compile Include="Problem3Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

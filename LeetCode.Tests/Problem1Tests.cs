@@ -6,6 +6,7 @@
 	[TestFixture]
 	public class Problem1Tests
 	{
+
 		[Test]
 		public void Test1() {
 			// Arrage
