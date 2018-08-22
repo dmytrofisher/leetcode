@@ -14,8 +14,9 @@
 			for (int i = 0; i < nums.Length; i++) {
 				int num = nums[i];
 				if (complements.ContainsKey(num)) {
-					return new int[] { complements[num], i };
-				} else if (!complements.ContainsKey(target - num)) {
+					return new [] { complements[num], i };
+				}
+				if (!complements.ContainsKey(target - num)) {
 					complements.Add(target - num, i);
 				}
 			}
